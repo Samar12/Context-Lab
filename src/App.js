@@ -95,7 +95,7 @@ class App extends Component {
             <AddItem />
           </div>
           <div className="Complete">
-            <CompletedList done={this.doneItem}/>
+            <CompletedList/>
             <DeletedList />
           </div>
 
