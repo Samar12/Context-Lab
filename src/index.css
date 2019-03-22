@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: rgb(5, 6, 41);
+  color: #fff;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.container{
+  width: 60%;
+  margin: 1% auto;
+}
+
+.ListItems{
+  background: #fff;
+  color: rgb(5, 2, 1)
+}
+
+.ListItems p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.ListItems span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  border: .3px solid #ccc;
+}
+
+.ListItems span.title{
+  background: rgb(226, 60, 19);
+  color: #fff;
+}
+
+.ListItems span.icon{
+  color:rgb(34, 79, 116) ;
+  cursor: pointer;
+}
+
+
+.ListItems span.name , form input[type=text]{
+width: 70%;
+}
+.ListItems span.action , form input[type=submit]{
+    width: 15%;
+    font-weight: bold
+}
+
+form input{
+  padding: 10px;
+  background: #eee;
+  border: transparent;
+  border: .3px solid #ccc;
+}
+
+.add{
+  width: 272px !important;
+  position: absolute
+}
+
+.completedList{
+  background: #fff;
+  color: rgb(5, 2, 1);
+  width: 400px;
+  height: 250px;
+  margin: 20px;
+}
+
+.completedList span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  border: .4px solid #ccc;
+}
+.completedList span.name{
+  width: 70%;
+}
+
+.completedList span.action{
+  width: 30%;
+}
+
+.completedList span.action2{
+  width: 15%;
+  cursor: pointer;
+}
+
+
+.completedList span.action{
+  cursor: pointer;
+}
+
+.Complete{
+  margin: 5% auto;
+  display: inline-flex;
+}
+
+.completedList span.title{
+  background: rgb(226, 60, 19);
+  color: #fff;
+}
